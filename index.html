@@ -33,7 +33,7 @@
           <p class="card-text">
             Aqui você verá uma variedade de músicas do meu gosto, que pode virar o seu gosto também
           </p>
-          <button type="button" class="btn btn-link">Veja o projeto</button>  
+          <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja o projeto</button>  
     </div>
    </div>
  </div>
@@ -45,7 +45,7 @@
           <h5 class="card-title">Minhas comida  preferidas</h5>
           <p class="card-text">
             Aqui você verá minhas comidas preferidas
-          <button type="button" class="btn btn-link">Veja o projeto</button>  
+          <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja o projeto</button>  
     </div>
    </div>
  </div>
@@ -57,12 +57,77 @@
           <h5 class="card-title">Meus esportes preferidos</h5>
           <p class="card-text">
             Aqui você verá os esportes que eu gosto e sei praticar
-          <button type="button" class="btn btn-link">Veja o projeto</button>  
+          <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja o projeto</button>  
     </div>
    </div>
  </div>
 </div>
 </main>
+<!-- Modal 1 -->
+<div class="modal" id="modal1" tabindex="-1">
+  <div class="modal-dialog">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title">Minhas múicaa preferidas</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+              <p>Aqui você verá uma variedade de músicas do meu gosto, que pode virar o seu gosto também</p>
+             </p>
+              <img src="img/musicas.jpg" class="img-fluid w-100"
+                  alt="Imagem representativa do meu projeto de música">
+          </div>
+          <div class="modal-footer">
+              <a href="https://www.youtube.com/watch?v=hLQl3WQQoQ0&list=RDEMTPfPURSbYpb0YHCKyIG37Q&start_radio=1&rv=U3ASj1L6_sY">Pasta de Adelle</a>
+              <a href="https://www.youtube.com/@minhaplaylistdemusicas5261">Pasta de Ze netto e Cristiano</a>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!-- Modal 2 -->
+<div class="modal" id="modal2" tabindex="-1">
+  <div class="modal-dialog">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title">Minhas comida  preferidas</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+              <p> Aqui você verá minhas comidas preferidas</p>
+             </p>
+              <img src="img/comida.jpg" class="img-fluid w-100"
+                  alt="Imagem representativa do meu projeto de comida">
+          </div>
+          <div class="modal-footer">
+              <a href="https://www.youtube.com/watch?v=olw3gMc4YlU">Receita de pudim</a>
+              <a href="https://www.youtube.com/watch?v=F8o5ih9vcnM">Recita e pão</a>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!-- Modal 3 -->
+<div class="modal" id="modal3" tabindex="-1">
+  <div class="modal-dialog">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title">Meus esportes preferidos</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+              <p>Aqui você verá os esportes que eu gosto e sei praticar</p>
+             </p>
+              <img src="img/esportes.jpg" class="img-fluid w-100"
+                  alt="Imagem representativa do meu projeto de esporte">
+          </div>
+          <div class="modal-footer">
+              <a href="https://www.youtube.com/watch?v=a_gPe1SQBMo">Jogo de volei</a>
+              <a href="https://www.youtube.com/watch?v=S_Y-qOF_6rs">Jogo de futebol</a>
+          </div>
+      </div>
+  </div>
+</div>
 
 <footer class="container py-5">
 <h2>Entre em contato</h2>
@@ -72,5 +137,20 @@
 <p class="my-5 text-center">© Copyright 2025. Produzido por Giovane Moreira</p>
 
 </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
